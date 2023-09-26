@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.0",
+    "nodemailer": "^6.9.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "instagramclone",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

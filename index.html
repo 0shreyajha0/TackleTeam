@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project</title>
+    <!-- Adding CSS styling here -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body style="background-color:#15c3d3b7;">
+    <div class="container">
+      <!-- Login Form -->
+      <div id="loginForm">
+        <h1 align ="center">Log In</h1>
+        <form>
+          <!-- Email and Password inputs -->
+          <!-- Add your form fields and styling here -->
+          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Log In</button>
+        </form>
+
+        <!-- Forgot Password Link -->
+        <p><a href="forgotpassword.html">Forgot Password?</a></p>
+
+        <!-- Create New Account Link -->
+        <p>Don't have an account? <a href="signup.html">Create New Account</a></p>
+    </div>
+
+      <!-- forget Password Form -->
+      <div id="forgetPasswordForm" style="display: none">
+        <h1>forget Password</h1>
+        <form>
+          <!-- Email input -->
+          <!-- Add your form fields and styling here -->
+          <input type="email" name="email" placeholder="Email" required />
+          <button type="submit">Reset Password</button>
+        </form>
+        <p><a href="#" id="backToLoginLink">Back to Login</a></p>
+      </div>
+    
+    <!-- Add your JavaScript logic here -->
+    <script src="script.js"></script>
+  </body>
+</html>
